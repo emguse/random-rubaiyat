@@ -64,4 +64,6 @@ python3 -m http.server 8000
 
 ## License
 
-新しいWebアプリケーションコードのライセンスは未決定です。作品データの出典と権利関係は [Data provenance](docs/data-provenance.md) に分けて記録します。
+このリポジトリ独自のソフトウェアとドキュメントは [MIT License](LICENSE) で提供します。
+
+『ルバイヤート』の詩文、小川亮作訳、および `misc/rubaiyat.csv` と `data/rubaiyat.json` の作品データはMIT Licenseの対象外です。出典、国内での著作権状態に関する判断、青空文庫の取り扱い規準、国外利用上の注意は [Data Notice](DATA-NOTICE.md) を参照してください。詳細な移行記録は [Data provenance](docs/data-provenance.md) に記載しています。
