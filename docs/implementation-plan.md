@@ -37,7 +37,7 @@ Status: Complete
 
 ## Phase 2: Minimum browser application
 
-Status: Next
+Status: Complete
 
 ### Work
 
@@ -55,6 +55,8 @@ Status: Next
 - データ取得後の選択に追加通信がない。
 
 ## Phase 3: Content and accessibility review
+
+Status: Next
 
 ### Work
 

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="小川亮作訳『ルバイヤート』から、今この瞬間のための一首を。">
+  <meta name="theme-color" content="#f1ead9">
+  <title>Random Rubaiyat</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/main.js" defer></script>
+</head>
+
+<body>
+  <main class="page-shell">
+    <header class="site-header">
+      <p class="eyebrow">OMAR KHAYYAM</p>
+      <h1>RUBÁIYÁT</h1>
+      <p class="introduction">
+        今、この瞬間の四行詩
+      </p>
+    </header>
+
+    <section class="reader" aria-labelledby="reader-title">
+      <h2 id="reader-title" class="visually-hidden">ルバイヤート閲覧</h2>
+
+      <article id="rubaiyatOutput" class="poem-card" aria-live="polite" aria-busy="true">
+        <p id="readerStatus" class="reader-status" role="status">
+          詩集をひらいています……
+        </p>
+      </article>
+
+      <div class="actions" aria-label="choose a random action">
+        <button id="randomRubaiyat" class="button button-primary" type="button" disabled>
+          Random Rubaiyat
+        </button>
+        <button id="randomRubaiyatInBoozeism" class="button button-secondary" type="button" disabled>
+          Boose-ism
+        </button>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>
+        出典: オマル・ハイヤーム作・小川亮作訳
+        <span aria-hidden="true">·</span>
+        <a href="https://www.aozora.gr.jp/cards/000288/card1760.html">青空文庫</a>
+      </p>
+    </footer>
+  </main>
+</body>
+
+</html>

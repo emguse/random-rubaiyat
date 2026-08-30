@@ -6,7 +6,7 @@
 
 ## Status
 
-データ移行基盤まで完成しています。ブラウザアプリケーションはまだ実装していません。
+最小ブラウザアプリケーションまで完成しています。現在は内容とアクセシビリティのレビュー段階です。
 
 ## Principles
 
@@ -47,6 +47,16 @@ CSVと生成済みJSONが同期していることを確認します。
 python3 scripts/build_data.py --check
 python3 -m unittest discover -s tests
 ```
+
+## Local preview
+
+リポジトリルートで静的HTTPサーバーを起動します。
+
+```shell
+python3 -m http.server 8000
+```
+
+<http://localhost:8000> をブラウザで開きます。`file://` から直接開く方法は、JSON取得に対するブラウザ制約が異なるためサポートしません。
 
 ## Related project
 
