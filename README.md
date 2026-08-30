@@ -6,7 +6,11 @@
 
 ## Status
 
-内容とアクセシビリティのレビューまで完成しています。次は静的ホスティングへの公開段階です。
+初期リリースは完成し、GitHub Pagesで公開しています。
+
+## Website
+
+<https://emguse.github.io/random-rubaiyat/>
 
 ## Principles
 

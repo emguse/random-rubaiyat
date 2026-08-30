@@ -82,7 +82,7 @@ Status: Complete
 
 ## Phase 4: Static deployment
 
-Status: Next
+Status: Complete
 
 ### Work
 
@@ -95,6 +95,14 @@ Status: Next
 
 - 公開URLから2種類のランダム表示を利用できる。
 - 本番環境にPython、SQLite、シークレットがない。
+
+### Deployment record
+
+- Published URL: <https://emguse.github.io/random-rubaiyat/>
+- Source: `main` branch, repository root
+- HTTPS: enforced
+- Initial deployment commit: `26df47ddf0c32d1767d31d1098463ca8a7d7c3a0`
+- HTML、CSS、JavaScript、JSON、データ通知のHTTP 200応答を確認した。
 
 ## Deferred backlog
 
