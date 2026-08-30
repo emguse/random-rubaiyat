@@ -2,6 +2,8 @@
 
 ## Phase 0: Documentation baseline
 
+Status: Complete
+
 ### Deliverables
 
 - プロジェクトの目的とスコープ
@@ -15,6 +17,8 @@
 - アプリケーションコードを追加せずに構成をレビューできる。
 
 ## Phase 1: Data pipeline
+
+Status: Complete
 
 ### Work
 
@@ -32,6 +36,8 @@
 - JSONを手編集せず再生成できる。
 
 ## Phase 2: Minimum browser application
+
+Status: Next
 
 ### Work
 
@@ -93,4 +99,3 @@
 - 各Phaseを独立した小さな変更としてレビューする。
 - 機能追加とデザイン刷新を同じ変更に混ぜない。
 - 新しい依存を追加する場合は、標準機能では解決できない理由を記録する。
-

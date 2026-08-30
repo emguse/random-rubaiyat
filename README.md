@@ -6,7 +6,7 @@
 
 ## Status
 
-設計段階です。アプリケーションコードと作品データはまだ配置していません。
+データ移行基盤まで完成しています。ブラウザアプリケーションはまだ実装していません。
 
 ## Principles
 
@@ -33,6 +33,21 @@
 - [Data provenance](docs/data-provenance.md)
 - [ADR 0001: Static browser application](docs/decisions/0001-static-browser-application.md)
 
+## Data development
+
+ブラウザ用JSONを再生成します。
+
+```shell
+python3 scripts/build_data.py
+```
+
+CSVと生成済みJSONが同期していることを確認します。
+
+```shell
+python3 scripts/build_data.py --check
+python3 -m unittest discover -s tests
+```
+
 ## Related project
 
 デスクトップ版は [emguse/rubaiyat](https://github.com/emguse/rubaiyat) で継続します。このリポジトリへデスクトップ版の履歴や実行環境は持ち込みません。
@@ -40,4 +55,3 @@
 ## License
 
 新しいWebアプリケーションコードのライセンスは未決定です。作品データの出典と権利関係は [Data provenance](docs/data-provenance.md) に分けて記録します。
-
