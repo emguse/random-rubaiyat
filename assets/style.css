@@ -86,13 +86,12 @@ h1 {
   width: 5rem;
   height: 0.65rem;
   margin: 0 auto 1.4rem;
-  content: "◆";
-  color: var(--gold);
-  font-size: 0.7rem;
-  line-height: 0.65rem;
-  text-align: center;
-  border-right: 1.8rem solid var(--gold);
-  border-left: 1.8rem solid var(--gold);
+  content: "";
+  background:
+    linear-gradient(45deg, transparent 34%, var(--gold) 34% 66%, transparent 66%)
+      center / 0.55rem 0.55rem no-repeat,
+    linear-gradient(var(--gold), var(--gold)) left center / 1.8rem 1px no-repeat,
+    linear-gradient(var(--gold), var(--gold)) right center / 1.8rem 1px no-repeat;
 }
 
 .poem-card {
@@ -238,7 +237,7 @@ h1 {
 
 .button:focus-visible,
 a:focus-visible {
-  outline: 3px solid rgba(169, 130, 60, 0.55);
+  outline: 3px solid var(--ink);
   outline-offset: 3px;
 }
 

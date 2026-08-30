@@ -56,7 +56,7 @@ Status: Complete
 
 ## Phase 3: Content and accessibility review
 
-Status: Next
+Status: Complete
 
 ### Work
 
@@ -71,7 +71,18 @@ Status: Next
 - 機能要件と非機能要件の受け入れ条件を満たす。
 - 作品データの欠落または意図しないHTML解釈がない。
 
+### Review record
+
+- CSVと生成JSONの全フィールド一致を自動テストで確認した。
+- 通常作品、酒分類、括弧指定作品、長い脚注をブラウザで確認した。
+- 375 CSS px幅で横方向のオーバーフローがないことを確認した。
+- ボタンのマウス操作、キーボード操作、フォーカス表示を確認した。
+- 読み込み完了後にボタンが有効になり、ブラウザコンソールに警告・エラーがないことを確認した。
+- 装飾記号をアクセシビリティツリーから除外し、動的な作品領域を一つのlive regionに整理した。
+
 ## Phase 4: Static deployment
+
+Status: Next
 
 ### Work
 

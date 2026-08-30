@@ -24,18 +24,38 @@
     <section class="reader" aria-labelledby="reader-title">
       <h2 id="reader-title" class="visually-hidden">ルバイヤート閲覧</h2>
 
-      <article id="rubaiyatOutput" class="poem-card" aria-live="polite" aria-busy="true">
-        <p id="readerStatus" class="reader-status" role="status">
+      <article
+        id="rubaiyatOutput"
+        class="poem-card"
+        aria-live="polite"
+        aria-atomic="true"
+        aria-busy="true"
+      >
+        <p id="readerStatus" class="reader-status">
           詩集をひらいています……
         </p>
       </article>
 
-      <div class="actions" aria-label="choose a random action">
-        <button id="randomRubaiyat" class="button button-primary" type="button" disabled>
+      <div class="actions" aria-label="作品を選ぶ">
+        <button
+          id="randomRubaiyat"
+          class="button button-primary"
+          type="button"
+          lang="en"
+          aria-label="すべての作品から一首をランダムに表示"
+          disabled
+        >
           Random Rubaiyat
         </button>
-        <button id="randomRubaiyatInBoozeism" class="button button-secondary" type="button" disabled>
-          Boose-ism
+        <button
+          id="randomRubaiyatInBoozeism"
+          class="button button-secondary"
+          type="button"
+          lang="en"
+          aria-label="酒に関係する作品から一首をランダムに表示"
+          disabled
+        >
+          Booze-ism
         </button>
       </div>
     </section>
