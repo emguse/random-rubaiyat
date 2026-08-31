@@ -44,7 +44,7 @@ function showRandomPoem(candidates) {
 }
 
 function enableReader() {
-  status.textContent = "下のボタンから、今の一首をひらいてください。";
+  status.textContent = "上のボタンから、今の一首をひらいてください。";
   output.setAttribute("aria-busy", "false");
   randomButton.disabled = false;
   boozeismButton.disabled = false;
